@@ -64,7 +64,9 @@ group by 1,2
 order by 2,1;
 ```
 - **Result**
-<img width="635" height="107" alt="image" src="https://github.com/user-attachments/assets/e977de1d-5210-49a5-bb86-19c929dc06ab" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/f0db67553d96ba7424aa9ae152e198905e9e057a/asset/q1.png)
+
 
 ### 📌 Q2. Calc **% YoY growth rate** by Category & release top 3 cat with highest grow rate
 The purpose of this query:
@@ -119,7 +121,8 @@ where dk <=3
 order by dk ;
 ```
 - **Result**
-<img width="633" height="565" alt="image" src="https://github.com/user-attachments/assets/a1d82214-82b6-4311-b130-9df797772a02" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/f0db67553d96ba7424aa9ae152e198905e9e057a/asset/q2.png)
 
 ### 📌 Q3. Ranking Top 3 TeritoryID with biggest Order quantity of every year
 
@@ -157,7 +160,8 @@ where rk in (1,2,3)
 ;
 ```
 - **Result**
-<img width="785" height="648" alt="image" src="https://github.com/user-attachments/assets/6c869d5a-70dd-47dc-bbf6-94d45f8a8f88" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/main/asset/q3.png)
 
 ### 📌 Q4. Calc Total Discount Cost belongs to Seasonal Discount **for each SubCategory**
 The purpose of this query:
@@ -182,7 +186,8 @@ from (
 group by 1,2;
 ```
 - **Result**
-<img width="511" height="80" alt="image" src="https://github.com/user-attachments/assets/82296bb8-b1bc-4b42-a6b4-bf81c583fd0e" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/main/asset/q4.png)
 
 ### 📌 Q5.**Retention rate** of Customer in 2014 with status of Successfully Shipped (Cohort Analysis)
 The purpose of this query:
@@ -244,7 +249,8 @@ group by 1,2
 order by 1,2;
 ```
 - **Result**
-<img width="484" height="54" alt="image" src="https://github.com/user-attachments/assets/392cb887-15c9-49ed-9ea1-8ef68d8cbd0c" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/main/asset/q5.png)
 
 ### 📌 Q6. Trend of Stock level & MoM diff % by all product in 2011. If %gr rate is null then 0.
 The purpose of this query:
@@ -280,7 +286,8 @@ from (
 order by 1 asc, 2 desc;
 ```
 - **Result**
-<img width="478" height="54" alt="image" src="https://github.com/user-attachments/assets/68d308eb-5e64-4e26-b8c4-336abbc4af4f" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/main/asset/q6.png)
 
 ### 📌 Q7. Calc MoM Ratio of Stock / Sales in 2011 by product name
 The purpose of this query:
@@ -329,7 +336,8 @@ and a.yr = b.yr
 order by 1 desc, 7 desc;
 ```
 - **Result**
-<img width="386" height="296" alt="image" src="https://github.com/user-attachments/assets/d98c8880-8905-426f-809c-fb3061e9c7eb" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/main/asset/q7.png)
 
 ### 📌 Q8. No of order and value at Pending status in 2014
 The purpose of this query:
@@ -348,7 +356,7 @@ group by 1,2
 ;
 ```
 - **Result**
-<img width="881" height="109" alt="image" src="https://github.com/user-attachments/assets/d64aa493-d8af-4b10-b91c-e7e4c73532ef" />
+
+![image alt](https://github.com/tanpham0211/sql_advanture_work/blob/main/asset/q8.png)
 
 ---
-| **Q8. Cohort map from product view → add-to-cart → purchase in January–March 2017** | Optimize the conversion funnel by improving product page clarity, strengthening calls-to-action, reducing checkout friction, and testing UX enhancements to increase conversion rates. |
